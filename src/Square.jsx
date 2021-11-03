@@ -8,12 +8,9 @@ export function Square(props) {
     
     // const [state, setState] = useState(props.symbol);
     let bkgrdColor = 'whiteBkgrd';
-    if (symbol === '0') {
+    if (symbol === 'X') {
         bkgrdColor = 'blackBkgrd';
     } 
-    // else if (symbol === '') {
-    //     borderColor = 'blackBorder';
-    // }
 
     const dispatch = useDispatch();
 
@@ -28,17 +25,3 @@ export function Square(props) {
     </div>);
 }
 
-   // if (state === 'X') {
-    //     setState('0');
-    // } else if (state === '0') {
-    //     setState('');
-    // } else {
-    //     setState('X')
-    // }
-
-// export function SmallerSquare(props) {
-//     const [countState, setCountState] = useState(0)
-//     return (<div onClick={() => setCountState(100 + countState)}>
-//         Click Count: {countState}
-//         </div>)
-// }

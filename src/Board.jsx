@@ -6,11 +6,6 @@ import { useSelector } from 'react-redux';
 export default function Board() {
     const clickCount = useSelector((state) => state.clickCount)
     const boardState = useSelector((state) => state.game)
-    // const [boardState, setBoard] = useState([
-    //     ['','X',''],
-    //     ['','',''],
-    //     ['X','','0'],
-    // ])
 
     const boardComponent = [];
 
