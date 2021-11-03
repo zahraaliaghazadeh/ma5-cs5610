@@ -1,0 +1,27 @@
+#square {
+    /* color: purple; */
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+/* .purpleBorder {
+    border: 1px solid purple;
+}
+
+.blueBorder {
+    border: 1px solid blue;
+}
+
+.blackBorder {
+    border: 1px solid black;
+} */
+
+.whiteBkgrd{
+    background-color: white;
+}
+
+.blackBkgrd{
+    background-color: black;
+}
