@@ -8,7 +8,7 @@ export function Square(props) {
     
     // const [state, setState] = useState(props.symbol);
     let bkgrdColor = 'whiteBkgrd';
-    if (symbol === 'X') {
+    if (symbol === '1') {
         bkgrdColor = 'blackBkgrd';
     } 
 

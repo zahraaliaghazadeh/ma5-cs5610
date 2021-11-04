@@ -8,10 +8,10 @@ export default function gameReducer(
 ) {
     if (action.type === 'boardClick') {
         const value = state[action.x][action.y];
-        if (value === 'X') {
+        if (value === '1') {
             state[action.x][action.y] = '0';
         } else {
-            state[action.x][action.y] = 'X';
+            state[action.x][action.y] = '1';
         }
         return [...state];
     }

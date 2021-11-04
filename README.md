@@ -1,4 +1,71 @@
-# Getting Started with Create React App
+# Mini Assignment2, CSS
+> HTML, CSS basics
+
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+
+## General info/ Instructions
+Task 1: Header 
+Use existing HTML tags to create a new header.  This header should stretch completely across the screen, and as users scroll up and down the page the header should remain at the top of the page.  When the page loads, it should not cover any content on the page, though it may cover content as users scroll down.  The header should be filled with a single solid color of your choosing, and should have your name centered (horizontally and vertically) in the header.  All other attributes (height, etc.) can be determined by you. Tip: you will not need to use the <header> tag, but may play with it if you choose to.
+<br>
+Task 2: Flex Columns 
+Create 100 boxes using HTML and CSS.  These boxes should be different colors (at least 3), and a different color from the header (so you can copy and paste the same box 100 times.)  Using CSS flex, put the boxes into 3 different columns that are equally spaced apart.  The final row should not shrink or stretch out: all boxes should be uniform, even if there are not enough to complete a final row.
+<br>
+Task 3: Table with Contact Information
+At the bottom of the page, add a table that includes at least 1 way to contact you: one column should say what form of contact this is (email, phone number, Github, school email, etc), the other is the actual information.  
+
+
+
+
+## Screenshots
+![Gif](./assets/gif1.gif)
+
+## Technologies
+* HTML5
+* CSS3
+
+## Setup
+First download the code, then you can install [Visual Code IDE](https://code.visualstudio.com/download), If you would like to make changes and see them instantly, You can install the Live Server extension on [Visual Code IDE](https://code.visualstudio.com/download),  you can click on `Go Live`
+and it will open in the browser, Alternatively you can right click on the explorer and open in browser.
+
+
+
+## Features
+List of features ready and TODOs for future development
+* Use of flex and positioning
+* Use of grid system
+* Use of Table
+
+
+
+To-do list:
+* fix the overlapping bug
+
+
+## Status
+Project is: _finished_
+
+## Inspiration
+Mini Assignment 2
+
+## Contact
+<img src="./assets/pic1.png" width="80px"> <br>
+Yalda Ali Aghazadeh : Front End Developer/ Designer
+[Github](https://github.com/zahraaliaghazadeh) ,
+[LinkedIn](www.linkedin.com/in/zahraaliaghazadeh)
+
+
+
+
+<hr>
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

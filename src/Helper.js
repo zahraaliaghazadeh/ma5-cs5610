@@ -1,5 +1,5 @@
 export function helper1() {
-    return 'x';
+    return '1';
 }
 
 export function helper2() {
