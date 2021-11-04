@@ -4,16 +4,7 @@ import { useDispatch } from 'react-redux';
 import './Square.css';
 
 export function Square(props) {
-    const symbol = props.symbol;
-
-    // const isFilledIn = props.isFilledIn;
-    
-    // const [state, setState] = useState(props.symbol);
-    let bkgrdColor = 'whiteBkgrd';
-    if (symbol === '0') {
-        bkgrdColor = 'blackBkgrd';
- 
-    } 
+    const bkgrdColor = props.bkgrdColor;
 
     const dispatch = useDispatch();
 
@@ -22,10 +13,9 @@ export function Square(props) {
             type: 'boardClick',
             x: props.x,
             y: props.y,
-            // isFilledIn: isFilledIn,
+            bkgrdColor
         }
-    )} id="square" className={bkgrdColor}>
-        {symbol}
+    )} id="square" className={bkgrdColor === '0' ? 'whiteBkgrd' : 'blackBkgrd'}>
     </div>);
 }
 

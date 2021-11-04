@@ -1,8 +1,7 @@
 const defaultState = {
-    count: 0,
     gameBoard: 
-    [['',''],
-    ['','']]
+    [['0','0'],
+    ['0','0']]
 }
 // const defaultState = 
 //     [

@@ -44,7 +44,7 @@ List of features ready and TODOs for future development
 
 
 To-do list:
-* fix the counter bug
+* improve the organization of code
 
 
 ## Status
