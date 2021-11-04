@@ -1,11 +1,28 @@
-const defaultState = [
-    ['',''],
-    ['','']
-];
+const defaultState = {
+    count: 0,
+    gameBoard: 
+    [['',''],
+    ['','']]
+}
+// const defaultState = 
+//     [
+//     ['',''],
+//     ['','']
+//     ];
 
-export default function gameReducer(
-    state = defaultState, action
-) {
+
+function generateGameBoard(){
+    return defaultState.gameBoard;
+}
+
+// export default function gameReducer(state = defaultState, action) {
+    export default function gameReducer(state, action) {
+
+    if(state === undefined){
+        // const gameBoard = generateGameBoard()
+        return generateGameBoard()
+    }
+
     if (action.type === 'boardClick') {
         const value = state[action.x][action.y];
         if (value === '1') {
@@ -14,6 +31,8 @@ export default function gameReducer(
             state[action.x][action.y] = '1';
         }
         return [...state];
+        // return {...state};
+
     }
     return state;
 }

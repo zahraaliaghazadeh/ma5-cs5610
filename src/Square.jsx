@@ -5,11 +5,14 @@ import './Square.css';
 
 export function Square(props) {
     const symbol = props.symbol;
+
+    // const isFilledIn = props.isFilledIn;
     
     // const [state, setState] = useState(props.symbol);
     let bkgrdColor = 'whiteBkgrd';
-    if (symbol === '1') {
+    if (symbol === '0') {
         bkgrdColor = 'blackBkgrd';
+ 
     } 
 
     const dispatch = useDispatch();
@@ -19,8 +22,9 @@ export function Square(props) {
             type: 'boardClick',
             x: props.x,
             y: props.y,
+            // isFilledIn: isFilledIn,
         }
-    )} id="square" class={bkgrdColor}>
+    )} id="square" className={bkgrdColor}>
         {symbol}
     </div>);
 }

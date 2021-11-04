@@ -1,5 +1,5 @@
-# Mini Assignment2, CSS
-> HTML, CSS basics
+# Mini Assignment5, React, Redux
+> React Redux mini app
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,48 +12,46 @@
 * [Contact](#contact)
 
 ## General info/ Instructions
-Task 1: Header 
-Use existing HTML tags to create a new header.  This header should stretch completely across the screen, and as users scroll up and down the page the header should remain at the top of the page.  When the page loads, it should not cover any content on the page, though it may cover content as users scroll down.  The header should be filled with a single solid color of your choosing, and should have your name centered (horizontally and vertically) in the header.  All other attributes (height, etc.) can be determined by you. Tip: you will not need to use the <header> tag, but may play with it if you choose to.
-<br>
-Task 2: Flex Columns 
-Create 100 boxes using HTML and CSS.  These boxes should be different colors (at least 3), and a different color from the header (so you can copy and paste the same box 100 times.)  Using CSS flex, put the boxes into 3 different columns that are equally spaced apart.  The final row should not shrink or stretch out: all boxes should be uniform, even if there are not enough to complete a final row.
-<br>
-Task 3: Table with Contact Information
-At the bottom of the page, add a table that includes at least 1 way to contact you: one column should say what form of contact this is (email, phone number, Github, school email, etc), the other is the actual information.  
+The goal of this assignment is to get comfortable using React and more experience with JavaScript.  You will be creating a 2X2 grid, where each square on that grid can be turned “on” or “off”.  Additionally, each time you select a cell on this grid, a counter at the top will increment or decrement to show the current number of “on” cells.  
 
-
+<br>
 
 
 ## Screenshots
 ![Gif](./assets/gif1.gif)
 
 ## Technologies
-* HTML5
-* CSS3
+* JavaScript
+* React
+* Redux
 
 ## Setup
-First download the code, then you can install [Visual Code IDE](https://code.visualstudio.com/download), If you would like to make changes and see them instantly, You can install the Live Server extension on [Visual Code IDE](https://code.visualstudio.com/download),  you can click on `Go Live`
-and it will open in the browser, Alternatively you can right click on the explorer and open in browser.
+First download the code, then you can install [Visual Code IDE](https://code.visualstudio.com/download).
+<br>
+You would need React, Node and Redux installed on your computer. Some installation instructions can be found: [here](https://reactjs.org/docs/create-a-new-react-app.html).
+<br>
 
+On terminal or command prompt, You would run ```npm install``` to get all the dependencies installed. Then ```npm start``` should open the app in a browser tab. If it doesn't it usually shows some errors on the browser page. 
 
 
 ## Features
 List of features ready and TODOs for future development
-* Use of flex and positioning
-* Use of grid system
-* Use of Table
+* Use of React
+* Use of Redux
+* Use of JavaScript
+* Change of color once you click is functional
 
 
 
 To-do list:
-* fix the overlapping bug
+* fix the counter bug
 
 
 ## Status
 Project is: _finished_
 
 ## Inspiration
-Mini Assignment 2
+Mini Assignment 5
 
 ## Contact
 <img src="./assets/pic1.png" width="80px"> <br>
@@ -63,7 +61,7 @@ Yalda Ali Aghazadeh : Front End Developer/ Designer
 
 
 
-
+<hr>
 <hr>
 ## Getting Started with Create React App
 
